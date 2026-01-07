@@ -58,10 +58,9 @@ int main() {
          << ", Days: " << days
          << ", Amount: " << finalAmount << endl;
     file.close();
-
     cout << "\nBooking saved in bookings.txt!" << endl;
-
     delete selectedCar;
     return 0;
 }
+
 
